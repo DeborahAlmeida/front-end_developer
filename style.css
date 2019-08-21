@@ -1,0 +1,488 @@
+html,body{
+
+	margin:0px;
+	padding: 0;
+}
+body{
+	width: 1350px;
+	height: auto;
+
+}
+
+.cabecalho{
+	display: flex;
+	width: 100%;
+	height: 700px;
+	background: #c31432;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.margem{
+	margin-left: 30px;
+}
+
+h1, h2,h5, #item1, #item2, #item3,#item4, .contato, h3, p, #text_skills, #text_meetings, .about_meetings, .about_contact, .about_email, .about_fone{
+	font-family: 'Roboto Slab', serif;
+	color: #FDF8F8;
+	font-style: none;
+	font-weight: normal;
+
+}
+h1{
+	 font-size: 48px;
+
+}
+
+
+h2{
+	 font-size:36px;
+}
+
+h3{
+	margin-top: 100px;
+	display: flex;
+	color: #261132;
+	font-size: 45px;
+	justify-content: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-align: justify;
+}
+
+.text_box{
+	width:700px;
+	margin-left: 60px;
+	margin-top: 100px;
+}
+
+p{
+	font-weight: ;
+	color: #261132;
+	font-size: 24px;
+	text-align: justify;
+
+}
+
+#vector{
+	width: 650px;
+	height:460px;
+	margin-top: -300px;
+	margin-left: 780px;
+}
+#logo{
+	margin-top: 20px;
+}
+
+#logo:hover{
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: none;
+	font-size: 20px;
+	justify-content: space-between;
+	margin-left: 760px;
+	margin-top: -40px;
+
+
+}
+
+#item1, #item2, #item3, #item4{
+	color: #D2CBCB;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+#item1:hover{
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    color:#FDF8F8;
+    transition-duration: 0.3s;
+}
+#item2:hover{
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        color:#FDF8F8;
+    transition-duration: 0.3s;
+}#item3:hover{
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        color:#FDF8F8;
+    transition-duration: 0.3s;
+}
+
+#item4:hover{
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        color:#FDF8F8;
+    transition-duration: 0.3s;
+}
+.text{
+	margin-top: 200px;
+}
+
+.botao{
+	width: 207px;
+	height: 54px;
+	background-color: #c31432;
+	border-radius: 50px;
+	box-shadow: 0px 4px 4px;
+}
+.botao:hover{
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        background-color: #E91C3F;
+        transition-duration: 0.05s;
+
+}
+
+.contato{
+	font-size: 28px;
+	color: #FDF8F8;
+	display: flex;
+	justify-content: center;
+	padding: 7px;
+	text-decoration: none;
+}
+
+#imagem_perfil{
+	width: 432px;
+	height: 423px;
+	margin-top: -340px;
+	margin-left: 800px;
+	border-radius: 100%;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
+
+}
+
+#teste1{
+	width: 100%;
+	height: 2px;
+	background-color: #E5E5E5;
+
+}
+
+#teste2{
+	width: 100%;
+	height: 0.5px;
+	background-color: #E5E5E5;
+}
+.banner_skills{
+	width: 450px;
+	height: 100px;
+	background: #9397D8;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+	border-radius: 100px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner_skills:hover{
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        transition-duration: 0.01s;
+}
+
+#text_skills{
+	display: flex;
+	color: #261132;
+	font-size: 45px;
+	justify-content: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-align: justify;
+	margin-top: 10px;
+}
+
+.skills{
+	width: 100%;
+	height: 1500px;
+	background-color: #E5E5E5;
+	margin-top: 100px;
+
+}
+
+.wdv{
+	width: 300px;
+	height: 100%;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.wdv:hover{
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition-duration: 0.3s;
+        transition-delay: 0.01s;
+}
+
+h4{
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 59px;
+	margin-top: -15px;
+	text-align: center;
+	text-shadow:0px 2px 2px rgba(0, 0, 0, 0.25);
+	color:#401559;
+
+}
+
+.caixa_skills{
+	width: 300px;
+	height: 200px;
+	line-height:20px;
+	margin-top: -10px;
+}
+h5{
+	font-family: "Roboto Slab", serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: justify;
+	color: #14071B;
+	text-align: center;
+}
+
+#chapeu{
+	margin-top:20px;
+	justify-content: center;
+	margin-left:80px; 
+}
+
+#bloco1, #bloco2{
+	width:800px;
+	height: 100%
+	border: 4px solid blue;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+
+#bloco2{
+	margin-top: 100px;
+}
+
+.meetings{
+	width: 100%;
+	height: 1400px;
+	background-color: #F6F6EC;
+
+}
+
+#teste3{
+	width: 100%;
+	height: 2px;
+	background-color: #E5E5E5;
+
+}
+
+.banner_meetings{
+	width: 450px;
+	height: 100px;
+	background: #F03A47;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+	border-radius: 100px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner_meetings:hover{
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+}
+
+#teste4{
+	width: 100%;
+	height: 0.5px;
+	background-color: #F6F6EC;
+}
+
+#text_meetings{
+	display: flex;
+	color: #E5E5E5;
+	font-size: 45px;
+	justify-content: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-align: justify;
+	margin-top: 10px;
+}
+
+.foto_meetings, .foto_meetings2{
+	width: 500px;
+	height: 300px;
+	border-radius: 5%;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+	margin-top: 200px;
+	margin-left: 80px;
+
+}
+
+.foto_meetings:hover{
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+}
+
+.foto_meetings2{
+	margin-top: 140px;
+	margin-left: 700px;
+}
+.foto_meetings2:hover{
+-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+}
+
+.title_meetings{
+	width: 500px;
+	height: 150px;
+	margin-top: -400px;
+	margin-left: 700px;
+}
+
+.about_meetings{
+	font-weight: ;
+	color: #261132;
+	font-size: 20px;
+	text-align: center;
+	width: 400px;
+	margin-left: 750px;
+	margin-top: -10px;
+}
+
+.lampada{
+	width: 440px;
+	height:500px;
+	margin-top: -300px;
+	margin-left: 120px;
+}
+
+.contact{
+	width: 100%;
+	height: 600px;
+	background: rgba(62, 47, 91, 0.3);
+}
+
+#teste5{
+	width: 100%;
+	height: 0.5px;
+	background: rgba(62, 47, 91, 0.3);
+
+}
+
+.bloco_maior{
+	width: 900px;
+	height:340px;
+	margin: auto;
+	justify-content: center;
+	background: #653254;
+	margin-top: 100px;
+}
+.bloco_maior:hover{
+	background-color: #7B2B60;
+	transition-duration: 0.3s;
+}
+
+.contato2{
+	width: 380px;
+    height: 340px;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 900px;
+}
+
+h6{
+	width: 200px;
+	height: 100%;
+	font-family: 'Roboto Slab', serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 36px;
+	line-height: 59px;
+	text-align: center;
+
+	color: #F6F6EC;
+	margin-top: -300px;
+	margin-left: 400px;
+
+}
+.about_contact{
+	font-style: normal;
+	font-weight:300;
+	text-align: justify;
+	color: #F6F6EC;
+	font-size: 20px;
+	width: 400px;
+	margin-left: 400px;
+	margin-top: -350px;
+}
+
+.about_email{
+	font-style: normal;
+	font-weight:300;
+	text-align: justify;
+	color: #F6F6EC;
+	font-size: 18px;
+	width: 400px;
+	margin-left: 400px;
+	margin-top: 50px;
+}
+
+
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: #2A2D2F;
+	display: flex;
+	justify-content: center;
+
+}
+
+#link1, #link2, #link3{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	padding-left:100px;
+}
+#link1:hover{
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+#link2:hover{
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+#link3:hover{
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+#link1{
+}
+
+
